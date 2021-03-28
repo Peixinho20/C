@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    char nome[30]; /*vetor de 30 posicoes*/
+    
+    printf ("Digite o seu nome: "):
+    scanf ("%s", nome); /*varialvel de entrada de dados*/ 
+    printf ("Como vai %s?\n", nome)
+    
+    return 0;
+}

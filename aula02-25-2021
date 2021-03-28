@@ -1,0 +1,107 @@
+/*Primeiro Programa*/
+
+#include <stdio.h> /*diretiva de inclusão da biblioteca padrão*/
+int main()         /*função principal*/
+{
+	printf("Olá, mundo!\n"); /*função impressão*/
+	
+	return 0;
+}
+
+
+
+
+/*Função printf ()*/
+	
+	printf ("expressão de controle", arg1, arg2, ...)
+
+Ex.:
+
+	int main ()
+	{
+		printf("Esta é a aula número %d (um)", 1);
+		/*%d me permite colocar um numeral, e o 1 vai substituí-lo*/
+		return 0;
+	}	
+
+
+
+/*Imprimindo uma cadeia de caracteres*/
+
+int main ()
+{
+	printf ("%s - Universidade do Estado do Rio de Janeiro\n", "UERJ");
+	printf ("Linguagem de Programção");
+	return 0;
+}
+
+
+/*Formatação dos resultados de saída*/
+
+printf ("%s - Universidade do Estado do Rio de Janeiro\n", "UERJ");
+printf ("12345678901234567890\n");
+printf ("%10s%10c%10s\n", "Ano", " ", "Valor"): /*10 espaços para imprimir a string Ano alinhado a direita, %10c para imprimir espaço em branco */
+printf ("%-9d%11c%10d\n", 1, " ", 1000);/* - alinhamento a esquerda*/
+
+/*
+puts() - imprime uma strig e ao final pula uma linha
+
+putchar() - imprime um único caractere mas sem pular uma linha
+*/
+
+
+/*Escreve um código que imprima na tela
+
+123456789012345678901234567890
+linha 1
+          linha2
+                       linha 3
+*/
+
+int main ()
+{
+	puts ("123456789012345678901234567890");
+	printf ("%-5s%2d%\n","linha",1);
+	printf ("%10c%-5s%2d\n"," ","linha",2);
+	printt ("%23c%-5s%2d\n"," ","linha",3);
+	
+	return 0	
+}
+
+/*O que será impresso no programa?*/
+
+#include <stdio.h>
+
+int main()
+{
+	int a,b;
+	
+	a = b = 5;
+	printf("%d\n", a+b);
+	printf("%d\n", a++ + b);/* soma ab, printa, e incrementa a*/
+	printf("%d\n", ++a + b);/*agora a=6, incrementa a e soma b, print == 12*/ 
+	printf("%d\n", --a + b);/*a=7,decrementa a e soma b*/
+	printf("%d\n", a++ + b);/*a=6,soma ab,print e incrementa*/
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

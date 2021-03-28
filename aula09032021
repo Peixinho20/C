@@ -1,0 +1,28 @@
+/*
+Lista de exercícios 
+2 Trabalho, talvez seja em grupo
+Estruturas
+
+Sintaxe
+
+struct <nome_do_struct>
+	{ 
+		<tipo> <nome_campos>;
+	}[nome_do_tipo]
+
+
+Para de acessar cada campo do tipo multivalorado 
+utiliza-se o operador "."
+
+tipo não primitivo = criado pelo usuário
+tipo multivalorado = aceita vários vaores
+
+Sintaxe
+
+<nome da variavel>.<campo do struct>*/
+
+#include <stdio.h>
+#define DIM 5 /*Tamanho do vetor*/
+
+
+	
